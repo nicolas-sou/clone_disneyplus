@@ -8,22 +8,22 @@
     background-size: cover;
 
     &__content {
-        max-width: 420px;
+        max-width: 640px;
 
         &__branding {
-            max-width: 210px;
-            margin: 0 auto 20px;
+            max-width: 320px;
+            margin: 0 auto 38px;
         }
 
         .title--small {
-            margin-bottom: 29px;
+            margin-bottom: 64px;
         }
 
         p {
-            margin-bottom: 30px;
+            margin-bottom: 20px;
 
             &:last-child {
-                margin-top: 25px;
+                margin-top: 60px;
             }
         }
 
@@ -35,21 +35,7 @@
                 width: calc(50% - 12px);
 
                 img {
-                    max-width: 50%;
-                }
-
-                button {
-                    display: block;
-                    width: 100%;
-                    height: 40px;
-                    font-size: 14px;
-                    color: variaveis.$corTextoSecundario;
-                    background-color: #6421ff;
-                    text-transform: uppercase;
-                    border-radius: 2px;
-                    margin-top: 2vw;
-                    margin-bottom: 4px;
-                    border: none;
+                    max-width: 48%;
                 }
             }
         }
